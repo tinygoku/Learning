@@ -1,5 +1,7 @@
-name = input("Hey! Wait a minute, who the hell are you? What is your name?!")
+name = input("Hey! Wait a minute, who the hell are you? What is your name?! ")
 if name == "julian":
     print("oh ok that's cool, come on in, " + name)
+elif name == "mike":
+    print(name + "?! what a neeeeeeeeeeeerd")
 else:
     print("YOU SHALL NOT PASS!")
