@@ -9,7 +9,10 @@ multiply = first_number * second_number * third_number
 print("Addition of the entered numbers is: ", sum)
 print("Multiplication of the entered number is: ", multiply)
 
-
+# not sure if you want it like this, or if you want it that if you repeated the digits 
+# it would tell you to not do it and ask you again to insert numbers
+# that seemed more complicated, im guess you need some sort of loop(no idea what loops are, but people always mention them 
+# when i try to google for stuff haha
 
 
 
