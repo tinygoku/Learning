@@ -1,9 +1,15 @@
-def moby_discount( x ):
-    regular = (x * 1.05)
-    membership = (x * 0.735)
-    print("Your total is ", regular)
-    print("Your total with a membership $", membership)
-    print("you saved $ ", regular - membership)
+def normal(price):
+    return 1.05 * price
 
+def discount(price):
+    return (price * .85) * 1.05
 
-moby_discount(int(input("Total price of items ")))
+price = float(input("Enter the value of your items: "))
+normal_price = normal(price)
+discount_price = discount(price)
+
+print("Your total is:$ ", normal_price)
+print("Total with Membership:$ ", discount_price)
+print("You saved:$", normal_price - discount_price)
+
+# decimals, only on print line.
